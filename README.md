@@ -18,8 +18,7 @@
 - fluid
 - center
 
-
-## button 
+## button
 
 - Primary Button
 - Secondary Button

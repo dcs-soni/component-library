@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio - Component Library</title>
 </head>
 <body>
     
     <p><Strong>your name</Strong> is attending neog.camp and is currently completing levelZero one weekend and assignment at a time.</p>
-    <p>This is a component library created by her to better design eac element.</p>
-    <p>After creating this library she is going to use the components in her <strong>portfolio, blog and all projects</strong>created. This will ensure that all her projects have <strong>consistent themeing and styling</strong></p>
+    <p>This is a component library created by me to better design each element.</p>
+    <p>After creating this library I am going to use the components in my <strong>portfolio, blog and all projects</strong>created. This will ensure that all my projects have <strong>consistent themeing and styling</strong></p>
 
     <hr>
 
@@ -19,7 +20,7 @@
     <h1>The biggest heading h1</h1>
     <h2>The second biggest heading h2</h2>
     <p>This is normal text. Long running text would look like this on your website. This will auto fold based on the width</p>
-    <p class="small-txt">This is relatively small text</p>
+    <p class="txt-small">This is relatively small text</p>
 
     <hr>
 
@@ -75,22 +76,22 @@
 
     <h2>@nav</h2>
     <p>Navigation is used on the top of the page and used to get to different pages.</p>
-    <nav class="navigation">
-        <div class="container-fluid">
-            <div class="brand">theBrandName</div>
-            <ul>
-                <li>
-                    <a href="/" class="active">Home</a>
+    
+    <nav class="navigation" >
+    
+            <div class="nav-brand">theBrandName</div>
+            <ul class="nav-items">
+                <li class="lists-item-inline">
+                    <a class="link" href="/">Home</a>
                 </li>
 
-                <li>
-                    <a href="/">Products</a>
+                <li class="lists-item-inline">
+                    <a class="link" href="/">Products</a>
                 </li>
-                <li>
-                    <a href="/">About</a>
+                <li class="lists-item-inline">
+                    <a class="link" href="/">About</a>
                 </li>
             </ul>
-        </div>
     </nav>
 
     <hr>
@@ -115,17 +116,26 @@
     </section>
 
 
-    <h3>@on off white section</h3>
+    <h3>@an off white section</h3>
     <section class="section ow">
         <h2>inside off white section</h2>
         <p>Text defining this section and many more things</p>
         <a href="/" class="primary-link">Primary Button</a>
     </section>
 
+    <hr>
 
-
-
-
+    <h2>@footer</h2>
+    <footer class="footer container-fluid">
+        <div class="container">
+            <div class="heading">Header Inside Footer</div>
+            <ul class="unordered list-inline">
+                <li>socialone</li>
+                <li>socialtwo</li>
+                <li>socialthree</li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 </html>
